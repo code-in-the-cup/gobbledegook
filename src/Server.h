@@ -158,8 +158,8 @@ struct Server
 	//
 	//     Retrieve this value using the `getAdvertisingShortName()` method.
 	//
-	Server(const std::string &serviceName, const std::string &advertisingName, const std::string &advertisingShortName, 
-		GGKServerDataGetter getter, GGKServerDataSetter setter);
+	Server(const std::string &serviceName, const std::string &advertisingName, const std::string &advertisingShortName,
+           GGKServerConfigurator configurator, GGKServerDataGetter getter, GGKServerDataSetter setter);
 
 	//
 	// Utilitarian

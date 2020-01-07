@@ -27,10 +27,10 @@
 #include <string>
 #include <list>
 
-#include "Utils.h"
-#include "TickEvent.h"
+#include "../src/Utils.h"
+#include "../src/TickEvent.h"
 #include "GattInterface.h"
-#include "HciAdapter.h"
+#include "../src/HciAdapter.h"
 
 namespace ggk {
 
@@ -51,22 +51,22 @@ struct DBusObject;
 
 #define CHARACTERISTIC_UPDATED_VALUE_CALLBACK_LAMBDA [] \
 ( \
-	const GattCharacteristic &self, \
+	const ggk::GattCharacteristic &self, \
 	GDBusConnection *pConnection, \
 	void *pUserData \
 ) -> bool
 
 #define CHARACTERISTIC_EVENT_CALLBACK_LAMBDA [] \
 ( \
-	const GattCharacteristic &self, \
-	const TickEvent &event, \
+	const ggk::GattCharacteristic &self, \
+	const ggk::TickEvent &event, \
 	GDBusConnection *pConnection, \
 	void *pUserData \
 )
 
 #define CHARACTERISTIC_METHOD_CALLBACK_LAMBDA [] \
 ( \
-       const GattCharacteristic &self, \
+       const ggk::GattCharacteristic &self, \
        GDBusConnection *pConnection, \
        const std::string &methodName, \
        GVariant *pParameters, \

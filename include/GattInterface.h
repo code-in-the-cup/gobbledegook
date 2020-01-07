@@ -26,12 +26,12 @@
 #include <string>
 #include <list>
 
-#include "TickEvent.h"
-#include "DBusInterface.h"
+#include "../src/TickEvent.h"
+#include "../src/DBusInterface.h"
 #include "GattProperty.h"
 #include "GattUuid.h"
-#include "Server.h"
-#include "Utils.h"
+#include "../src/Server.h"
+#include "../src/Utils.h"
 
 namespace ggk {
 

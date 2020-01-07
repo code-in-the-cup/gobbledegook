@@ -45,8 +45,8 @@
 #include "HciAdapter.h"
 #include "DBusObject.h"
 #include "DBusInterface.h"
-#include "GattCharacteristic.h"
-#include "GattProperty.h"
+#include "../include/GattCharacteristic.h"
+#include "../include/GattProperty.h"
 #include "Logger.h"
 #include "Init.h"
 

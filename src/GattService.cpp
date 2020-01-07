@@ -27,10 +27,10 @@
 #include <string>
 #include <list>
 
-#include "GattService.h"
-#include "GattInterface.h"
+#include "../include/GattService.h"
+#include "../include/GattInterface.h"
 #include "DBusObject.h"
-#include "GattCharacteristic.h"
+#include "../include/GattCharacteristic.h"
 
 namespace ggk {
 

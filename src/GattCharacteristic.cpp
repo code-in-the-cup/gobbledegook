@@ -22,12 +22,12 @@
 // in Server.cpp.
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#include "GattCharacteristic.h"
-#include "GattDescriptor.h"
-#include "GattProperty.h"
-#include "GattUuid.h"
+#include "../include/GattCharacteristic.h"
+#include "../include/GattDescriptor.h"
+#include "../include/GattProperty.h"
+#include "../include/GattUuid.h"
 #include "DBusObject.h"
-#include "GattService.h"
+#include "../include/GattService.h"
 #include "Utils.h"
 #include "Logger.h"
 

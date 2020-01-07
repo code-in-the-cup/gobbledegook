@@ -22,8 +22,8 @@
 // detailed discussion in Server.cpp.
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#include "GattDescriptor.h"
-#include "GattProperty.h"
+#include "../include/GattDescriptor.h"
+#include "../include/GattProperty.h"
 #include "DBusObject.h"
 #include "Utils.h"
 #include "Logger.h"

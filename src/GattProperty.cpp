@@ -25,7 +25,7 @@
 #include <string>
 
 #include "Utils.h"
-#include "GattProperty.h"
+#include "../include/GattProperty.h"
 
 namespace ggk {
 

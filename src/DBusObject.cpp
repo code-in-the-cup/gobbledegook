@@ -38,12 +38,12 @@
 // objects in a hierarchy, only the root object's publish flag matters.
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#include "GattProperty.h"
+#include "../include/GattProperty.h"
 #include "DBusInterface.h"
-#include "GattService.h"
+#include "../include/GattService.h"
 #include "DBusObject.h"
 #include "Utils.h"
-#include "GattUuid.h"
+#include "../include/GattUuid.h"
 #include "Logger.h"
 
 namespace ggk {

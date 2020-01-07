@@ -21,8 +21,8 @@
 // description in Server.cpp.
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#include "GattInterface.h"
-#include "GattProperty.h"
+#include "../include/GattInterface.h"
+#include "../include/GattProperty.h"
 #include "DBusObject.h"
 #include "Logger.h"
 

@@ -28,13 +28,13 @@
 #include <fstream>
 #include <regex>
 
-#include "ServerUtils.h"
+#include "../include/ServerUtils.h"
 #include "DBusObject.h"
 #include "DBusInterface.h"
-#include "GattProperty.h"
-#include "GattService.h"
-#include "GattCharacteristic.h"
-#include "GattDescriptor.h"
+#include "../include/GattProperty.h"
+#include "../include/GattService.h"
+#include "../include/GattCharacteristic.h"
+#include "../include/GattDescriptor.h"
 #include "Server.h"
 #include "Logger.h"
 #include "Utils.h"

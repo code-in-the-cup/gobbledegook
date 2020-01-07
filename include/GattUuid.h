@@ -57,7 +57,7 @@
 #include <ctype.h>
 
 #include <iostream>
-#include "Logger.h"
+#include "../src/Logger.h"
 
 namespace ggk {
 

@@ -9,16 +9,16 @@ libggk_a_SOURCES = DBusInterface.cpp \
                    DBusObject.h \
                    DBusObjectPath.h \
                    GattCharacteristic.cpp \
-                   GattCharacteristic.h \
+                   ../include/GattCharacteristic.h \
                    GattDescriptor.cpp \
-                   GattDescriptor.h \
+                   ../include/GattDescriptor.h \
                    GattInterface.cpp \
-                   GattInterface.h \
+                   ../include/GattInterface.h \
                    GattProperty.cpp \
-                   GattProperty.h \
+                   ../include/GattProperty.h \
                    GattService.cpp \
-                   GattService.h \
-                   GattUuid.h \
+                   ../include/GattService.h \
+                   ../include/GattUuid.h \
                    Globals.h \
                    Gobbledegook.cpp \
                    ../include/Gobbledegook.h \
@@ -40,9 +40,8 @@ libggk_a_SOURCES = DBusInterface.cpp \
                    TickEvent.h \
                    Utils.cpp \
                    Utils.h
-# Build our standalone server (linking statically with libggk.a, linking dynamically with GLib)
-standalone_CXXFLAGS = -fPIC -Wall -Wextra -std=c++11
+# Build our standalone server (linking statically with libggk.a and GLib (though it could possibly be dynamic too)
+standalone_CXXFLAGS = -fPIC -Wall -Wextra -std=c++11 $(GLIB_CFLAGS) $(GIO_CFLAGS) $(GOBJECT_CFLAGS)
 noinst_PROGRAMS = standalone
 standalone_SOURCES = standalone.cpp
 standalone_LDADD = libggk.a
-standalone_LDLIBS = $(GLIB_LIBS) $(GIO_LIBS) $(GOBJECT_LIBS)

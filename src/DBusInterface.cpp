@@ -44,7 +44,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #include "DBusInterface.h"
-#include "GattProperty.h"
+#include "../include/GattProperty.h"
 #include "DBusObject.h"
 #include "Logger.h"
 
