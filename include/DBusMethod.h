@@ -90,12 +90,12 @@ struct DBusMethod
 		// This should never happen, but technically possible if instantiated with a nullptr for `callback`
 		if (!callback)
 		{
-			Logger::error(SSTR << "DBusMethod contains no callback: [" << path << "]:[" << interfaceName << "]:[" << methodName << "]");
+			Logger::error(std::ostringstream().flush() << "DBusMethod contains no callback: [" << path << "]:[" << interfaceName << "]:[" << methodName << "]");
 			g_dbus_method_invocation_return_dbus_error(pInvocation, kErrorNotImplemented.c_str(), "This method is not implemented");
 			return;
 		}
 
-		Logger::info(SSTR << "Calling method: [" << path << "]:[" << interfaceName << "]:[" << methodName << "]");
+		Logger::info(std::ostringstream().flush() << "Calling method: [" << path << "]:[" << interfaceName << "]:[" << methodName << "]");
 		callback(*static_cast<const T *>(pOwner), pConnection, methodName, pParameters, pInvocation, pUserData);
 	}
 

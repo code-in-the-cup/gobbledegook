@@ -31,8 +31,8 @@
 #include <condition_variable>
 
 #include "HciSocket.h"
-#include "Utils.h"
-#include "Logger.h"
+#include "../include/Utils.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

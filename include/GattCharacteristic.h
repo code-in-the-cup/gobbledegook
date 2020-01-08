@@ -27,10 +27,10 @@
 #include <string>
 #include <list>
 
-#include "../src/Utils.h"
-#include "../src/TickEvent.h"
+#include "Utils.h"
+#include "TickEvent.h"
 #include "GattInterface.h"
-#include "../src/HciAdapter.h"
+#include "DBusMethod.h"
 
 namespace ggk {
 

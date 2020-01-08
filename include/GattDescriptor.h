@@ -26,8 +26,8 @@
 #include <string>
 #include <list>
 
-#include "../src/TickEvent.h"
-#include "../src/Utils.h"
+#include "TickEvent.h"
+#include "Utils.h"
 #include "GattInterface.h"
 
 namespace ggk {

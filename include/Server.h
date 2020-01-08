@@ -31,7 +31,7 @@
 #include <list>
 #include <memory>
 
-#include "../include/Gobbledegook.h"
+#include "Gobbledegook.h"
 #include "DBusObject.h"
 
 namespace ggk {

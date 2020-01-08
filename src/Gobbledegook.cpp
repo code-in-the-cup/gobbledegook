@@ -42,8 +42,8 @@
 #include <mutex>
 
 #include "Init.h"
-#include "Logger.h"
-#include "Server.h"
+#include "../include/Logger.h"
+#include "../include/Server.h"
 
 namespace ggk
 {

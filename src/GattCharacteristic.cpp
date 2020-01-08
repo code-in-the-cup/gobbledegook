@@ -26,10 +26,10 @@
 #include "../include/GattDescriptor.h"
 #include "../include/GattProperty.h"
 #include "../include/GattUuid.h"
-#include "DBusObject.h"
+#include "../include/DBusObject.h"
 #include "../include/GattService.h"
-#include "Utils.h"
-#include "Logger.h"
+#include "../include/Utils.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

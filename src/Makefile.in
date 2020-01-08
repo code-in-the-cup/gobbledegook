@@ -301,12 +301,12 @@ top_srcdir = @top_srcdir@
 noinst_LIBRARIES = libggk.a
 libggk_a_CXXFLAGS = -fPIC -Wall -Wextra -std=c++11 $(GLIB_CFLAGS) $(GIO_CFLAGS) $(GOBJECT_CFLAGS)
 libggk_a_SOURCES = DBusInterface.cpp \
-                   DBusInterface.h \
+                   ../DBusInterface.h \
                    DBusMethod.cpp \
-                   DBusMethod.h \
+                   ../DBusMethod.h \
                    DBusObject.cpp \
-                   DBusObject.h \
-                   DBusObjectPath.h \
+                   ../include/DBusObject.h \
+                   ../include/DBusObjectPath.h \
                    GattCharacteristic.cpp \
                    ../include/GattCharacteristic.h \
                    GattDescriptor.cpp \
@@ -318,7 +318,7 @@ libggk_a_SOURCES = DBusInterface.cpp \
                    GattService.cpp \
                    ../include/GattService.h \
                    ../include/GattUuid.h \
-                   Globals.h \
+                   ../include/Globals.h \
                    Gobbledegook.cpp \
                    ../include/Gobbledegook.h \
                    HciAdapter.cpp \
@@ -328,17 +328,17 @@ libggk_a_SOURCES = DBusInterface.cpp \
                    Init.cpp \
                    Init.h \
                    Logger.cpp \
-                   Logger.h \
+                   ../include/Logger.h \
                    Mgmt.cpp \
                    Mgmt.h \
                    Server.cpp \
-                   Server.h \
+                   ../include/Server.h \
                    ServerUtils.cpp \
-                   ServerUtils.h \
+                   ../include/ServerUtils.h \
                    standalone.cpp \
-                   TickEvent.h \
+                   ../include/TickEvent.h \
                    Utils.cpp \
-                   Utils.h
+                   ../include/Utils.h
 
 # Build our standalone server (linking statically with libggk.a and GLib (though it could possibly be dynamic too)
 standalone_CXXFLAGS = -fPIC -Wall -Wextra -std=c++11 $(GLIB_CFLAGS) $(GIO_CFLAGS) $(GOBJECT_CFLAGS)

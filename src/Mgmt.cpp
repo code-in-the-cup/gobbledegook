@@ -26,8 +26,8 @@
 #include <string.h>
 
 #include "Mgmt.h"
-#include "Logger.h"
-#include "Utils.h"
+#include "../include/Logger.h"
+#include "../include/Utils.h"
 
 namespace ggk {
 

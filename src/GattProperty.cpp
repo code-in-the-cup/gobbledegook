@@ -24,7 +24,7 @@
 #include <gio/gio.h>
 #include <string>
 
-#include "Utils.h"
+#include "../include/Utils.h"
 #include "../include/GattProperty.h"
 
 namespace ggk {

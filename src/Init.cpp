@@ -39,15 +39,15 @@
 #include <chrono>
 #include <thread>
 
-#include "Server.h"
-#include "Globals.h"
+#include "../include/Server.h"
+#include "../include/Globals.h"
 #include "Mgmt.h"
 #include "HciAdapter.h"
-#include "DBusObject.h"
-#include "DBusInterface.h"
+#include "../include/DBusObject.h"
+#include "../include/DBusInterface.h"
 #include "../include/GattCharacteristic.h"
 #include "../include/GattProperty.h"
-#include "Logger.h"
+#include "../include/Logger.h"
 #include "Init.h"
 
 namespace ggk {

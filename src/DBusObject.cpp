@@ -39,12 +39,12 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #include "../include/GattProperty.h"
-#include "DBusInterface.h"
+#include "../include/DBusInterface.h"
 #include "../include/GattService.h"
-#include "DBusObject.h"
-#include "Utils.h"
+#include "../include/DBusObject.h"
+#include "../include/Utils.h"
 #include "../include/GattUuid.h"
-#include "Logger.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

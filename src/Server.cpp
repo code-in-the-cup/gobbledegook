@@ -150,18 +150,18 @@
 
 #include <algorithm>
 
-#include "Server.h"
+#include "../include/Server.h"
 #include "../include/ServerUtils.h"
-#include "Utils.h"
-#include "Globals.h"
-#include "DBusObject.h"
-#include "DBusInterface.h"
+#include "../include/Utils.h"
+#include "../include/Globals.h"
+#include "../include/DBusObject.h"
+#include "../include/DBusInterface.h"
 #include "../include/GattProperty.h"
 #include "../include/GattService.h"
 #include "../include/GattUuid.h"
 #include "../include/GattCharacteristic.h"
 #include "../include/GattDescriptor.h"
-#include "Logger.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

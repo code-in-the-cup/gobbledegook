@@ -48,9 +48,9 @@
 
 #include "HciAdapter.h"
 #include "HciSocket.h"
-#include "Utils.h"
+#include "../include/Utils.h"
 #include "Mgmt.h"
-#include "Logger.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

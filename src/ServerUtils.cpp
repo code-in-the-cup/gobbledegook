@@ -29,15 +29,15 @@
 #include <regex>
 
 #include "../include/ServerUtils.h"
-#include "DBusObject.h"
-#include "DBusInterface.h"
+#include "../include/DBusObject.h"
+#include "../include/DBusInterface.h"
 #include "../include/GattProperty.h"
 #include "../include/GattService.h"
 #include "../include/GattCharacteristic.h"
 #include "../include/GattDescriptor.h"
-#include "Server.h"
-#include "Logger.h"
-#include "Utils.h"
+#include "../include/Server.h"
+#include "../include/Logger.h"
+#include "../include/Utils.h"
 
 namespace ggk {
 

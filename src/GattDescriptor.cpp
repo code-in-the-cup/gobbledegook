@@ -24,9 +24,9 @@
 
 #include "../include/GattDescriptor.h"
 #include "../include/GattProperty.h"
-#include "DBusObject.h"
-#include "Utils.h"
-#include "Logger.h"
+#include "../include/DBusObject.h"
+#include "../include/Utils.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 

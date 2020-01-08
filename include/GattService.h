@@ -29,7 +29,7 @@
 #include <string>
 #include <list>
 
-#include "../src/TickEvent.h"
+#include "TickEvent.h"
 #include "GattInterface.h"
 
 namespace ggk {

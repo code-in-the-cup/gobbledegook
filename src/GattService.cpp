@@ -29,7 +29,7 @@
 
 #include "../include/GattService.h"
 #include "../include/GattInterface.h"
-#include "DBusObject.h"
+#include "../include/DBusObject.h"
 #include "../include/GattCharacteristic.h"
 
 namespace ggk {

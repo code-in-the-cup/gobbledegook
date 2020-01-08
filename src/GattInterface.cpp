@@ -23,8 +23,8 @@
 
 #include "../include/GattInterface.h"
 #include "../include/GattProperty.h"
-#include "DBusObject.h"
-#include "Logger.h"
+#include "../include/DBusObject.h"
+#include "../include/Logger.h"
 
 namespace ggk {
 
